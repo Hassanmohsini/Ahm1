@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Liner</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .parent {
+            margin: 100px;
+        }
+.child-1 {
+    height: 100px;
+    background: #800080;
+    background: linear-gradient(
+        45deg,
+        #800080 0% 25%,
+        #1ff703 25% 50%,
+        #2702f5 50% 75%,
+        #fa0202 75% 100%,
+        #800080 100%
+    );
+}
+.child-2 {
+    height: 100px;
+    background: #800080;
+    background: linear-gradient(
+        135deg,
+        #800080 0% 25%,
+        #1ff703 25% 50%,
+        #2702f5 50% 75%,
+        #fa0202 75% 100%,
+        #800080 100%
+    );
+}
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child-1"></div>
+        <div class="child-2"></div>
+    </div>
+</body>
+</html>
